@@ -7,7 +7,7 @@ const slides = [
     link: "https://bentonvillearea.com/podcast/revolutionizing-the-trucking-industry-with-aayush-thakur-and-deme-yuan-of-fr8relay/",
   },
   {
-    image: "/images/slide1.jpg",
+    image: "/images/slide1.png",
     link: "https://armoneyandpolitics.com/driving-innovation-fr8relay-accelerates-in-the-transportation-industry/",
   },
   {
@@ -32,12 +32,19 @@ export default function AboutUsCarousel() {
   };
 
   return (
-    <section className="bg-[#f5f5f5] text-black py-20 px-6 font-roboto">
+    <section id="about" className="bg-[#fff] text-black  px-6 font-roboto">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-light mb-10">
+        <h2 className="text-3xl md:text-3xl font-light pl-10 mb-2">
           About FR8relay
         </h2>
+        <p className="text-md md:text-l font-light leading-relaxed text-black pl-10 mb-2 mb-10">
+          FR8relay connects shippers, carriers, and drivers through our patented
+          relay system. By intelligently matching trucks every 4–5 hours, we
+          enable drivers to swap trailers, reduce idle time, and get home daily
+          Improving delivery times and asset utilization for everyone on the
+          road.
+        </p>
 
         {/* Carousel */}
         <div className="relative flex items-center gap-4">

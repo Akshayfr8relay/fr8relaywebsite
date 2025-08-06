@@ -15,7 +15,10 @@ export default function ContactUsSection() {
   };
 
   return (
-    <section className="relative bg-[#121212] text-white py-24 px-6 overflow-hidden font-['Helvetica']">
+    <section
+      id="contact"
+      className="relative bg-[#121212] text-white py-24 px-6 overflow-hidden font-['Helvetica']"
+    >
       {/* Rotating dotted circles */}
       <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] border border-dotted border-white rounded-full animate-spin-slow opacity-70" />
       <div className="absolute bottom-[-10%] right-[-10%] w-[400px] h-[400px] border border-dotted border-white rounded-full animate-spin-reverse-slower opacity-70" />
