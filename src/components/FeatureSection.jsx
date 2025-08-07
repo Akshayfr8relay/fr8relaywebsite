@@ -34,9 +34,12 @@ export default function RelayModelSection() {
 
   return (
     <>
-      <section className="bg-white text-black py-20 px-4 md:px-10 font-roboto">
+      <section
+        id="platform"
+        className="bg-[#fff] text-black py-20 px-4 md:px-10 font-roboto"
+      >
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 ">
-          <p className="text-xl font-roboto text-black-600 mb-2 ml-15">
+          <p className="text-xl font-roboto text-black-600 mb-2 ml-15 pb-5">
             Benefits of using Fr8relay AI Platform
           </p>
         </div>
@@ -49,7 +52,7 @@ export default function RelayModelSection() {
             return (
               <div
                 key={index}
-                className={`flex shadow-md bg-white  overflow-hidden h-[300px] ${
+                className={`flex shadow-md bg-white  overflow-hidden h-[320px] ${
                   // Apply flex-row-reverse for the first row to get Text | Image layout
                   isInFirstRow ? "" : "flex-row-reverse"
                 }`}
@@ -69,7 +72,7 @@ export default function RelayModelSection() {
                 </div>
 
                 {/* Text Content */}
-                <div className="w-1/2 p-6 md:p-8 flex flex-col justify-center">
+                <div className="w-1/2 p-6 md:p-5 flex flex-col justify-center">
                   {feature.icon}
                   <h3 className="text-[#8d4ab5] font-roboto text-base md:text-lg mb-2">
                     {feature.title}
@@ -87,7 +90,7 @@ export default function RelayModelSection() {
         </div>
 
         {/* Custom Triangle Cut Styles */}
-        <style jsx>{`
+        <style jsx="true">{`
           .clip-triangle-right {
             clip-path: polygon(
               0 0,

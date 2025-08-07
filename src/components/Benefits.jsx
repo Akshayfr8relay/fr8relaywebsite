@@ -17,7 +17,7 @@ export default function Benefits() {
     setCurrent((current - 1 + carouselImages.length) % carouselImages.length);
 
   return (
-    <section id="platform" className="bg-white py-20 px-6 font-roboto">
+    <section id="benefits" className="bg-[#ccc7c749] py-20 px-6 font-roboto">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         {/* Text Content */}
         <div>

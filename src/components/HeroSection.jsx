@@ -1,9 +1,6 @@
 export default function HeroSection() {
   return (
-    <div
-      id="platform"
-      className="relative w-full h-screen overflow-hidden font-roboto"
-    >
+    <div className="relative w-full h-screen overflow-hidden font-roboto">
       {/* Background Video */}
       <video
         className="absolute w-full h-full object-cover"
@@ -21,7 +18,7 @@ export default function HeroSection() {
       {/* Centered Content Container */}
       <div className="relative z-10 flex flex-col justify-center items-center h-full px-4">
         {/* Stylish Transparent Box */}
-        <div className="bg-white/5 backdrop-blur-md rounded-2xl shadow-2xl p-8 md:p-12 text-center max-w-4xl">
+        <div className="bg-white/10 backdrop-blur-md rounded-2xl shadow-2xl p-8 md:p-12 text-center max-w-4xl">
           <h1 className="text-4xl sm:text-5xl md:text-6xl text-white leading-tight tracking-tight">
             <strong className="bg-gradient-to-r from-[#3b55d1] to-[#8d4ab5] bg-clip-text text-transparent">
               FR8relay

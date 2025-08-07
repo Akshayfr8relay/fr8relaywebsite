@@ -14,9 +14,7 @@ export default function Footer() {
           </h4>
           <ul className="space-y-1 text-sm">
             <li>
-              <a href="/contact" className="hover:underline">
-                Contact
-              </a>
+              <a href="tel:479-310-5053">Call Us</a>
             </li>
             <li>
               <a
@@ -30,7 +28,7 @@ export default function Footer() {
             </li>
             <li>
               <a href="mailto:support@relaytech.co" className="hover:underline">
-                support@relaytech.co
+                hello@fr8relay.com{" "}
               </a>
             </li>
           </ul>
@@ -67,11 +65,7 @@ export default function Footer() {
                 Privacy policy
               </a>
             </li>
-            <li>
-              <a href="/cookie" className="hover:underline">
-                Cookie policy
-              </a>
-            </li>
+
             <li>
               <a href="/acceptable-use" className="hover:underline">
                 Website acceptable use policy
@@ -83,7 +77,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="mt-12 flex justify-between items-center text-xs text-gray-400">
-        <p>© Relay Technology {new Date().getFullYear()}</p>
+        <p>© www.Fr8Relay.com {new Date().getFullYear()}</p>
       </div>
     </footer>
   );

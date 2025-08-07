@@ -2,10 +2,7 @@ import React from "react";
 
 export default function TrustedBy() {
   return (
-    <section
-      id="platform"
-      className="bg-[#ffffff] text-black py-16 px-6 font-roboto relative overflow-hidden"
-    >
+    <section className="bg-[#ffffff] text-black py-16 px-6 font-roboto relative overflow-hidden">
       <div
         className="w-[80%] mx-auto my-10 h-[1px] bg-[length:8px_1px] bg-repeat-x bg-black/30"
         style={{

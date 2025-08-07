@@ -32,7 +32,7 @@ export default function AboutUsCarousel() {
   };
 
   return (
-    <section id="about" className="bg-[#fff] text-black  px-6 font-roboto">
+    <section id="about" className="bg-[#fff] text-black py-6 px-6 font-roboto">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h2 className="text-3xl md:text-3xl font-light pl-10 mb-2">
