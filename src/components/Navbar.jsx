@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
     // Added absolute positioning and padding to place it correctly on the page
     <div className="Fixed top-0 left-0 right-0 z-50 px-4">
-      <nav className="flex justify-between items-center max-w-7xl mx-auto px-6 py-3 bg-white text-black rounded-xl backdrop-blur-md shadow-md font-roboto">
+      <nav className="flex justify-between items-center max-w-7xl mx-auto px-6 py-3 bg-white text-black  backdrop-blur-md font-roboto">
         {/* Logo Image */}
         <div className="flex-shrink-0">
           <img src="/logo.png" alt="Logo" className="h-8 w-auto" />
