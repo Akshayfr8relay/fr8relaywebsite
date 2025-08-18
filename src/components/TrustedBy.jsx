@@ -19,14 +19,14 @@ export default function TrustedBy() {
         <div className="animate-marquee whitespace-nowrap flex items-center gap-10">
           {[
             "USDA",
+            "Bentonville Area COC",
+            "Epicenter Logo",
+            "Innova Logo",
+            "Start Co",
             "NSF",
             "Arkansas Inc",
-            "womenintech",
             "StartupJunkie",
-            "watco",
             "Us Department of Energy",
-            "Chouteau",
-            "forth",
           ].map((name, idx) => (
             <img
               key={idx}
