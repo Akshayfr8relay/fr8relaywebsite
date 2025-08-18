@@ -26,7 +26,7 @@ function App() {
       <CookieConsent
         location="bottom"
         buttonText="Accept"
-        cookieName="fr8relayCookieConsent"
+        cookieName="FR8relayCookieConsent"
         style={{ background: "#2B373B" }}
         buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
         expires={150}
